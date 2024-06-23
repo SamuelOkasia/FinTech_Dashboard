@@ -1,0 +1,35 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main__title{
+    height: 70px;
+}
+
+.main__metrics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.main__metrics__verticalLine{
+    border-left: 1px solid #E5E5E5; /* Adjust the width and color as needed */
+    height: 80px; /* Adjust the height as needed */
+    margin: 0 20px; /* Adjust the spacing as needed */
+}
+.main__revenue{
+    margin-top: 4rem;
+
+}
+
+.main_b{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+
+}

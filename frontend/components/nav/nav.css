@@ -1,0 +1,35 @@
+.nav{
+    background-color: #FAFBFD;
+    width: 250px;
+    height: 100%;
+
+    border-right: 2px solid #F5F5F5;
+
+}
+
+.nav__logo{
+    height: 70px;
+}
+
+.nav__logo--logo{
+    font-family: var(--font-montserrat);
+    font-weight: bolder;
+    font-style: italic;
+    color: var(--dark-colour);
+}
+
+.nav__menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nav__menu p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    font-family: var(--font-montserrat);
+    font-weight: 500;
+    color: var(--dark-colour);
+}

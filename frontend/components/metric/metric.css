@@ -1,0 +1,13 @@
+
+.metric{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.metric p{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
